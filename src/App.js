@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import PokemonList from './components/PokemonList';
-import axios from 'axios';
 import Pagination from './components/Pagination';
+import axios from 'axios';
 
 function App() {
   const [pokemon, setPokemon] = useState([]);
